@@ -1,0 +1,46 @@
+.auth-parent{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
+    position: absolute;
+    width: 100%;
+}
+
+.auth-parent h1{
+    font-size: 22px;
+    font-weight: bold;
+}
+.auth-parent Form{
+    width: 400px;
+    box-shadow: 0 0 3px gray;
+    padding: 20px;
+    background-color: white !important;
+    z-index: 1;
+    padding: 60px 30px;
+    opacity: .75;
+}
+    
+
+
+
+.brand{
+    font-size: 75px !important;
+  
+    position: absolute;
+    top: 2%;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    /* transform: rotate(-10deg) !important; */
+    color: rgba(0, 0, 0, 0.747);
+    /* transform: translate(-50% , -50%); */
+}
+
+
+@media only screen and (max-width:1000px){
+    .brand{
+        display: none;
+    }
+}

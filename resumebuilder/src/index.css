@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Poppins:ital,wght@0,300;1,300&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif !important;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+button{
+  background-image: linear-gradient(to right, #16222A 0%, #3A6073  51%, #16222A  100%) !important;
+  box-shadow: none !important;
+  outline: none !important;
+  border: none !important;
+  color: white !important;
+}
+         
+
+
+
+         
+.btn-grad {
+  background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+
+
+input , textarea{
+  box-shadow: none !important;
+  outline: none !important;
+  border: 1px solid gray !important;
+  
+}
+
+input:focus , textarea:focus{
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.ant-spin{
+  position: absolute !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  z-index: 10;
+}
+.ant-btn-dashed{
+  background: white !important;
+  color: black !important;
+  border: 1px dashed gray !important;
+  width: 200px !important;
+}
+
+.divider{
+  width: 100%;
+  height: 2px;
+  background-color: gray;
+}
+.back-btn{
+  background-color: white !important;
+  color: black !important;
+  border: 1px solid black !important;
+}
