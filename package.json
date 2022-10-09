@@ -8,12 +8,12 @@
     "npm":"8.19.2"
   },
   "scripts": {
-    "client-install": "npm install --prefix client",
+    "resumebuilder-install": "npm install --prefix resumebuilder",
     "server": "nodemon server.js",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "resumebuilder": "npm start --prefix resumebuilder",
+    "dev": "concurrently \"npm run server\" \"npm run resumebuilder\"",
     "start": "node server.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix resumebuilder && npm run build --prefix resumebuilder"
   },
   "author": "",
   "license": "ISC",
